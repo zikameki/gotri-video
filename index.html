@@ -75,6 +75,31 @@
             margin: 10px 0;
             color: #DEB887;
         }
+
+        /* Styling untuk tombol link eksternal */
+        .external-link {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .external-link a {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            background-color: #00CED1;
+            color: white;
+            border: 2px solid #9400D3;
+            border-radius: 50px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .external-link a:hover {
+            background-color: #228B22;
+            border-color: #FF00FF;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -82,41 +107,25 @@
     <div class="gallery">
         <!-- Video Item -->
         <div class="media-item" data-type="video">
-            <h2>Tasek belajar🙏</h2>
+            <h2>fly over</h2>
             <video controls>
                 <source src="video1.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
-      <div class="media-item" data-type="video">
-            <h2>fly over</h2>
+        <div class="media-item" data-type="video">
+            <h2>takjil Ramadhan</h2>
             <video controls>
                 <source src="video2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
-      <div class="media-item" data-type="video">
-            <h2>Tulungagung</h2>
-            <video controls>
-                <source src="video3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-      <div class="media-item" data-type="video">
-            <h2>pasang</h2>
-            <video controls>
-                <source src="video4.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-      <div class="media-item" data-type="video">
-            <h2>takjil ramadhan</h2>
-            <video controls>
-                <source src="video5.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-      </div>
         <!-- Tambahkan lebih banyak video, audio, atau foto di sini -->
+    </div>
+
+    <!-- Tombol menuju link eksternal -->
+    <div class="external-link">
+        <a href="https://zikameki.github.io/gotri-video-another/" target="_blank">Lihat Video Lainnya</a>
     </div>
 </body>
 </html>
